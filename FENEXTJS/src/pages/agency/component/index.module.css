@@ -1,0 +1,35 @@
+.custom-height {
+    height: 500px;
+}
+.custom-height2 {
+    height: 350px;
+}
+.carousel-slide {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hiệu ứng chuyển động */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Hiệu ứng bóng */
+}
+
+.carousel-slide:hover {
+    transform: translateY(-5px); /* Nâng lên khi hover */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3); /* Tăng bóng khi hover */
+}
+/* styles.module.css */
+.carousel-button {
+    background-color: rgba(255, 255, 255, 0.8); /* Màu nền trắng trong suốt */
+    color: #333; /* Màu chữ */
+    border: none; /* Không có viền */
+    border-radius: 50%; /* Hình tròn */
+    width: 50px; /* Kích thước rộng */
+    height: 50px; /* Kích thước cao */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; /* Con trỏ khi hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Hiệu ứng chuyển màu và phóng to */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Hiệu ứng bóng */
+}
+
+.carousel-button:hover {
+    background-color: rgba(255, 255, 255, 1); /* Tối màu nền khi hover */
+    transform: scale(1.1); /* Phóng to khi hover */
+}
